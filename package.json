@@ -1,0 +1,11 @@
+{
+  "name": "n8n-workflow-inspector",
+  "version": "1.0.0",
+  "description": "CLI que inspeciona um workflow do n8n pela API publica e imprime um resumo em JSON.",
+  "bin": { "n8n-inspect": "inspect-workflow.js" },
+  "scripts": { "start": "node inspect-workflow.js" },
+  "keywords": ["n8n", "cli", "automation", "api", "devtools"],
+  "author": "Victor Hugo Coriolano",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
